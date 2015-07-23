@@ -450,9 +450,9 @@ class LiveVis(object):
             ii += 1
             since_keypress += 1
             since_redraw += 1
-            if ii % 2 == 0:
-                sys.stdout.write('.')
-            sys.stdout.flush()
+            # if ii % 2 == 0:
+            #     sys.stdout.write('.')
+            # sys.stdout.flush()
             # Extra sleep for debugging. In production all main loop sleep should be in cv2.waitKey.
             #time.sleep(2)
 

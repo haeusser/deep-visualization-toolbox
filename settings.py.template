@@ -4,7 +4,7 @@ import os
 root_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Set this to point to your compiled checkout of caffe
-caffevis_caffe_root      = '/path/to/caffe'
+caffevis_caffe_root      = '/home/haeusser/libs/caffe'
 
 if not os.path.exists(caffevis_caffe_root):
     raise Exception('ERROR: Set caffevis_caffe_root in settings.py first.')
@@ -28,7 +28,7 @@ window_panes = (
 )
 # Define global_scale as a float to rescale window and all panes. Handy for quickly changing resolution for a different screen.
 global_scale = None
-global_scale = .9
+global_scale = 1.8
 # Define global_font_size to scale all font sizes by this amount.
 global_font_size = .9
 
